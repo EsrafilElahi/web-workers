@@ -22,3 +22,4 @@ They can handle push notifications, background synchronization, and other advanc
 Service workers have their own lifecycle and are registered and controlled separately from the web page.
 Examples: Offline-first web applications, push notifications, background sync, caching strategies.
 It's worth noting that all three types of workers provide a way to offload tasks from the main thread, enhance performance, and enable advanced features in web applications. However, they have different use cases and capabilities based on their specific design and purpose.
+
