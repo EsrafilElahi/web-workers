@@ -7,7 +7,7 @@ self.addEventListener('install', (event) => {
         '/css/style.css',
         '/js/main.js',
         '/images/logo.png'
-      ]);
+      ]); 
     })
   );
 });
