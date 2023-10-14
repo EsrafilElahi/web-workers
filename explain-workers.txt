@@ -6,15 +6,15 @@ Web workers are typically used for tasks such as heavy computations, complex dat
 Each web worker runs in its own dedicated thread, separate from the main thread, allowing for parallel execution.
 Web workers communicate with the main thread using messaging, sending and receiving data through message events.
 Examples: Performing image manipulation, running data-intensive algorithms, background data processing.
-Shared Workers:
 
+Shared Workers:
 Shared workers are similar to web workers but can be shared among multiple browser contexts, such as multiple tabs or iframes from the same origin.
 Shared workers allow for communication and data sharing between different browsing contexts that load the same shared worker script.
 They provide a way to coordinate and share resources across different instances of a web application.
 Shared workers have a separate lifecycle from individual tabs or iframes and can persist as long as there is at least one active connection to them.
 Examples: Real-time collaboration tools, multiplayer online games, shared resource management.
-Service Workers:
 
+Service Workers:
 Service workers are a type of web worker specifically designed for offline capabilities and advanced web features.
 They run in the background and can intercept network requests made by a web page.
 Service workers allow for caching of web assets, enabling offline access to previously visited pages or resources.
