@@ -6,7 +6,7 @@ Web workers are typically used for tasks such as heavy computations, complex dat
 Each web worker runs in its own dedicated thread, separate from the main thread, allowing for parallel execution.
 Web workers communicate with the main thread using messaging, sending and receiving data through message events.
 Examples: Performing image manipulation, running data-intensive algorithms, background data processing.
-
+ 
 Shared Workers:
 Shared workers are similar to web workers but can be shared among multiple browser contexts, such as multiple tabs or iframes from the same origin.
 Shared workers allow for communication and data sharing between different browsing contexts that load the same shared worker script.
